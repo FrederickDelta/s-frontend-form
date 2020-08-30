@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white;
+  display: grid;
+  justify-items: center;
+}
+
+.container {
+  background-color: lightgray;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: grid;
+  gap: 0.25rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+div.row > label {
+  display: inline-block;
+  width: 8rem;
+}
+
+div.row > div {
+  width: 5rem;
+}
+
+button {
+  margin: 0.2rem;
+}
